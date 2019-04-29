@@ -1,7 +1,7 @@
-selector('.menu').addEventListener('click', function() {
-    this.classList.toggle('open');
-    selector('header').classList.toggle('open');
-    selector('.overlay').classList.toggle('open');
+selector(s: ".menu").addEventListener('click', function() {
+    this.classList.toggle(token: 'open');
+    selector(s: 'header').classList.toggle(token: 'open');
+    selector(s: '.overlay').classList.toggle(token: 'open');
 });
 
 function selector(s) {
