@@ -56,11 +56,12 @@ header {
 	transition: all 650ms;
 }
 
+
 .bar::before {
-	top: -2rem;
+	top: -1rem;
 }
 .bar::after {
-	top: 2rem;
+	top: 1rem;
 }
 
 .open .bar {
@@ -213,7 +214,7 @@ nav ul {
 		margin: 2rem 0;
 	}
 
-	header .open nav {
+	header.open nav {
 		transform: rotateY(0);
 	}
 
@@ -221,7 +222,7 @@ nav ul {
 		display: block;
 	}
 
-	.overlay .open {
+	.overlay.open {
 		opacity: 1;
 		transform: scaleX(1);
 	}
